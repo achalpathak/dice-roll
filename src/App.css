@@ -44,10 +44,12 @@ h1 {
   padding: 0 16px;
   letter-spacing: 1px;
   cursor: pointer;
+  outline:none;
 }
 
 .dice_inputs > .up_button:hover {
-  opacity: 70%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: darken(#33a02d, 10%);
 }
 
 .dice_inputs > .down_button {
@@ -60,10 +62,12 @@ h1 {
   padding: 0 16px;
   letter-spacing: 1px;
   cursor: pointer;
+  outline:none;
 }
 
 .dice_inputs > .down_button:hover {
-  opacity: 70%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: darken(#f59b42, 10%);
 }
 
 .dice_inputs > * {
@@ -80,10 +84,12 @@ h1 {
   background-color: #4dabf7;
   color: white;
   cursor: pointer;
+  outline:none;
 }
 
 .roll_dice_btn:hover {
-  opacity: 70%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: darken(#4dabf7, 10%);
 }
 
 .diceContainer {
