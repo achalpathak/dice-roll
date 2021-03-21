@@ -92,7 +92,7 @@ h1 {
   background: darken(#4dabf7, 10%);
 }
 
-.diceContainer {
+.dice_container {
   margin: 50px 0;
   display: flex;
   justify-content: center;
